@@ -13,10 +13,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start:production": "npm install && npm run build && npm run start:prod",
-    "start:prod": "cross-env NODE_ENV=production node server",
-    "start": "react-scripts build | node server.js",
-    "startOld": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
